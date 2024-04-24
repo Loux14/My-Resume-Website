@@ -1,3 +1,5 @@
+import './WelcomePage.css';
+
 
 function WelcomePage({onEnter}) {
 
