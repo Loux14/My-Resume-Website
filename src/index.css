@@ -5,6 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (max-width: 1000px) {
+  body {
+    overflow-y: scroll; /* or overflow-x: scroll; */
+  }
+}
+@media (max-height: 600px) {
+  body {
+    overflow-y: scroll; /* or overflow-x: scroll; */
+  }
 }
 
 code {

@@ -4,11 +4,11 @@ import './Introduction.css';
 function Introduction() {
   return (
     <div className="Introduction">
-      <div className="Photo">
+      <div className="PhotoIntro">
 
-        <img src="photo_LucasG.jpg" alt="Your Photo" />
+        <img src="photo_LucasG.jpg" alt="Lucas G" />
       </div>
-      <div className="TextZone">
+      <div className="TextZoneIntro">
         <h2>My name is Lucas, I’m 33 years old and I am a student
           in 2nd year in Computer Science.
         </h2>
@@ -21,29 +21,29 @@ function Introduction() {
           What you can expect from me :
         </h2>
         <li>
-          Analytic mind : I always try to find patterns in things, to understand 
+        <b>Analytic mind : </b>I always try to find patterns in things, to understand 
           how things work and find similarities in things to exploit them. 
         </li>
         <li>
-          Never late : to me, 10 minutes early is already late.
+          <b>Never late :</b> to me, 10 minutes early is already late.
         </li>
         <li>
-          Regularity : I like to find the best way to do a task, I try to replicate it.
+        <b>Regularity :</b> I like to find the best way to do a task, then I try to replicate it.
         </li>
         <li>
-          Open mind: I like having interaction with others, and learn from people having a
+        <b>Open mind: </b>I like having interaction with others, and learn from people having a
            different perspective. I easily accept when I’m wrong.
         </li>
         <li>
-          Passionate : I’ve chosen computer science because I can spend my week in front of a 
+        <b>Passionate :</b> I’ve chosen computer science because I can spend my week in front of a 
           screen trying to resolve a problem, without counting hours.
         </li>
         <li>
-          Competitor : I like to be challenged, this is why I’m participating at every university 
+        <b>Competitor :</b> I like to be challenged, this is why I’m participating at every university 
           competition I can. I’m not scared of short deadlines.
         </li>
         <li>
-          Fun : I think working with nice colleagues and being able to catch quality time with teammates
+        <b>Fun :</b> I think working with nice colleagues and being able to catch quality time with teammates
            can make a difference between a simple job and great working experience.
         </li>
         <h2>What I am looking for :</h2>

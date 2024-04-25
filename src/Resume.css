@@ -1,0 +1,55 @@
+.Resume {
+    background-color: #282c34;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #0091ff;
+    min-height: 100vh;
+    padding-top: 5vh;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+
+
+.PhotoResume {
+    margin: 5%;
+    padding-bottom: 10vh;
+}
+
+
+.PhotoResume img {
+    max-height: 100vh;
+    border-radius: 2%;
+}
+
+.Resume button {
+    display: inline-block;
+    padding: 20px 40px;
+    width: auto;
+    background-color: #0091ff;
+    color: #282c34;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    width: auto;
+    max-height: 100vh;
+    font-size: 3vh;
+    border-radius: 5px;
+
+}
+
+.Resume button:hover {
+    background-color: #003a65;
+    color: #0091ff;
+    cursor: pointer;
+}
+
+.Resume button:active {
+    transform: translateY(3px);
+    color: #00457a;
+    background-color: #282c34;
+}

@@ -1,0 +1,37 @@
+.table-container {
+    margin: 20px;
+    padding-top: 20vh;
+    max-width: 100%;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #0091ff;
+  }
+  
+  th, td {
+    border: 1px solid #0091ff;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0091ff;
+    color: #282c34;
+  }
+
+  
+
+/* Effet de survol sur les lignes */
+tr:hover {
+    background-color: #0091ff;
+    cursor: pointer; 
+    color: #282c34;
+}
+
+tr.selected {
+    background-color: #0091ff; /* Couleur de fond lorsque sélectionné */
+    color: #282c34;
+  }

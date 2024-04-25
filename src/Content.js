@@ -4,6 +4,7 @@ import Resume from './Resume';
 import Projects from "./Projects"
 import References from './References'
 import Contacts from './Contacts'
+import './App.css'
 
 
 function Content() {
@@ -14,7 +15,7 @@ function Content() {
   };
 
   return (
-    <main className="Content">
+    <div className="Content">
       <div className="TopPanel">
         <ul>
           <li className={selectedItem === 'Introduction' ? 'active' : ''} onClick={() => handleItemClick('Introduction')}>Introduction</li>
@@ -25,15 +26,15 @@ function Content() {
         </ul>
       </div>
       <div className="MainContent">
-        {/* Render content based on the selected item */}
+
         {selectedItem === 'Introduction' && <Introduction />}
         {selectedItem === 'Resume' && <Resume />}
         {selectedItem === 'Projects' && <Projects />}
         {selectedItem === 'References' && <References />}
         {selectedItem === 'Contact' && <Contacts />}
-        {/* Add other content components here */}
+
       </div>
-    </main>
+    </div>
   );
 }
 
