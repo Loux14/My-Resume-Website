@@ -9,7 +9,6 @@
     min-height: 100vh;
     padding-top: 5vh;
     flex-direction: column;
-    overflow-y: scroll;
 
 }
 
@@ -23,6 +22,7 @@
 .PhotoResume img {
     max-height: 100vh;
     border-radius: 2%;
+    border: 2px solid #0091ff;
 }
 
 .Resume button {

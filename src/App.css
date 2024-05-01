@@ -17,6 +17,7 @@
 
 
 
+
 .TopPanel {
   background-color: #003a65; 
   color: #282c34;
@@ -32,7 +33,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   
 }
 
@@ -42,8 +43,7 @@
   cursor: pointer;
   font-size: 5vh;
 
-}
-
+} 
 .TopPanel li:hover {
   background-color: #003a65;
   color: #0091ff;

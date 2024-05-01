@@ -1,0 +1,26 @@
+.contacts-container {
+    padding: 20px;
+    font: 2em 'Arial', sans-serif;
+
+    text-align: center ; 
+
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+
+  }
+  
+  .contact-info a {
+    color: #0091ff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    color: white;
+  }
+  

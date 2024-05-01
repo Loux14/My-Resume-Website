@@ -8,7 +8,6 @@
   min-height: 100vh;
   margin-top: 5vh;
   margin-bottom: 0px;
-  
 }
 
 
@@ -20,6 +19,7 @@
 
 .PhotoIntro img {
   border-radius: 2% ;
+  border: 2px solid #0091ff;
 }
 
 .PhotoIntro img {

@@ -6,20 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  overflow-x: hidden;
-  overflow-y: hidden;
+
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   body {
-    overflow-y: scroll; /* or overflow-x: scroll; */
+    overflow-y: scroll;
+    overflow-x: scroll;
   }
-}
+
 @media (max-height: 600px) {
   body {
-    overflow-y: scroll; /* or overflow-x: scroll; */
+    overflow-y: scroll;
+    overflow-x: scroll;
   }
 }
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

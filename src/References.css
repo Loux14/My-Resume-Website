@@ -9,6 +9,7 @@
     width: 100%;
     border-collapse: collapse;
     color: #0091ff;
+
   }
   
   th, td {
@@ -32,6 +33,7 @@ tr:hover {
 }
 
 tr.selected {
-    background-color: #0091ff; /* Couleur de fond lorsque sélectionné */
-    color: #282c34;
+    background-color: #003a65; /* Couleur de fond lorsque sélectionné */
+    color: white;
   }
+
