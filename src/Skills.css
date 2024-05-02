@@ -41,7 +41,7 @@
 .skill-details {
   height: 50%;
   /* padding: 10px; */
-  margin: 10px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: 'Email Client',
     lang: ['js.png', 'html.png'],
-    subtitle: 'HTML CSS JAVASCRIPT ',
+    subtitle: 'Semester 1',
     text: 'This is a project',
     image: 'project1.png',
     link: '/projet1' // Lien vers les détails du projet
@@ -17,7 +17,7 @@ const projects = [
     id: 2,
     title: 'Enigma',
     lang: ['java.png'],
-    subtitle: 'Description du Projet 2',
+    subtitle: 'Semester 2',
     text: 'This is a project',
     image: 'project2.png',
     link: '/projet2'
@@ -26,7 +26,7 @@ const projects = [
     id: 3,
     title: 'Resume Website',
     lang: ['react.png'],
-    subtitle: 'Description du Projet 2',
+    subtitle: 'Semester 3 - Personal Project',
     text: 'This is a project',
     image: 'project3.png',
     link: '/projet2'
@@ -34,26 +34,26 @@ const projects = [
   {
     id: 4,
     title: 'Subway',
-    lang: ['logo512.png', 'logo512.png', 'logo512.png'],
-    subtitle: 'Description du Projet 2',
+    lang: ['java.png'],
+    subtitle: 'Semester 2',
     text: 'This is a project',
-    image: 'logo512.png',
+    image: 'subway.png',
     link: '/projet2'
   },
   {
     id: 5,
     title: 'Mail Server',
-    lang: ['logo512.png', 'logo512.png', 'logo512.png'],
-    subtitle: 'Description du Projet 2',
+    lang: ['js.png', 'node.png', 'html.png'],
+    subtitle: 'Semester 1',
     text: 'This is a project',
-    image: 'logo512.png',
+    image: 'mail-server.png',
     link: '/projet2'
   },
   {
     id: 6,
     title: 'Ducky Script',
     lang: ['ducky-script.png'],
-    subtitle: 'Description du Projet 2',
+    subtitle: 'Semester 2 - Personal Project',
     text: 'This is a project',
     image: 'ducky.png',
     link: '/projet2'
@@ -78,8 +78,8 @@ function Projects() {
                 <img key={index} src={image} alt={`Vignette ${index}`} className='lang' />
               ))}
             </div>
-            <p>{project.text}</p>
             <p>{project.subtitle}</p>
+            <p>{project.text}</p>
             <a href={project.link} className="project-link">GitHub</a>
           </div>
 

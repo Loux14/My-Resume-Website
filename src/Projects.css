@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: flex-start; */
-    gap: 10px;
+    gap: 75px;
 
 }
 
@@ -55,13 +55,17 @@
 }
 
 .project-details p {
-    color: #0091ff;
+    color: #0091ff6c;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    margin-left: 5px;
 }
 
 
 
 h1 {
-    margin: 10;
+    margin-top: 10;
     color: #0091ff;
 }
 
@@ -71,6 +75,11 @@ h1 {
     display: block;
     color: #0091ff;
     text-decoration: none;
+    font-size: large;
+}
+.project-link:hover{
+    display: block;
+    color: white;
 }
 
 .lang {
