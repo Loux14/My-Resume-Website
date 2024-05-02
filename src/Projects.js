@@ -6,7 +6,7 @@ import './Projects.css'; // Assurez-vous de créer ce fichier CSS pour le style
 const projects = [
   {
     id: 1,
-    title: 'Email Client Prototype',
+    title: 'Email Client',
     lang: ['js.png', 'html.png'],
     subtitle: 'HTML CSS JAVASCRIPT ',
     text: 'This is a project',
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Terminal Enigma Machine',
+    title: 'Enigma',
     lang: ['java.png'],
     subtitle: 'Description du Projet 2',
     text: 'This is a project',
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Paris Subway Map',
+    title: 'Subway',
     lang: ['logo512.png', 'logo512.png', 'logo512.png'],
     subtitle: 'Description du Projet 2',
     text: 'This is a project',
@@ -48,8 +48,19 @@ const projects = [
     text: 'This is a project',
     image: 'logo512.png',
     link: '/projet2'
-  }
-  // Ajoutez autant de projets que nécessaire
+  },
+  {
+    id: 6,
+    title: 'Ducky Script',
+    lang: ['ducky-script.png'],
+    subtitle: 'Description du Projet 2',
+    text: 'This is a project',
+    image: 'ducky.png',
+    link: '/projet2'
+  },
+
+
+
 ];
 
 function Projects() {
@@ -67,8 +78,8 @@ function Projects() {
                 <img key={index} src={image} alt={`Vignette ${index}`} className='lang' />
               ))}
             </div>
-            {/* <h2>{project.subtitle}</h2> */}
             <p>{project.text}</p>
+            <p>{project.subtitle}</p>
             <a href={project.link} className="project-link">GitHub</a>
           </div>
 
