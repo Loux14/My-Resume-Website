@@ -67,8 +67,8 @@ function Projects() {
   return (
     <div className="projects-container">
       {projects.map(project => (
-        <div key={project.id} className="project-thumbnail">
-          <div className="thumbnail-image">
+        <a key={project.id} className="project-thumbnail" href={project.link} target="_blank" rel="noopener noreferrer">
+          <div className="thumbnail-image-p">
             <img src={project.image} alt={project.title} />
           </div>
           <div className="project-details">
@@ -80,10 +80,9 @@ function Projects() {
             </div>
             <p>{project.subtitle}</p>
             <p>{project.text}</p>
-            <a href={project.link} className="project-link">GitHub</a>
           </div>
 
-        </div>
+        </a>
       ))}
     </div>
   );

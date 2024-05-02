@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: flex-start; */
-    gap: 75px;
+    gap: 50px;
 
 }
 
@@ -19,7 +19,7 @@
 }
 
 .project-thumbnail {
-    width: calc(25% - 0px);
+    width: calc(20% - 0px);
     background-color: #005ea709;
     border: 1px solid #0091ff;
     border-radius: 5px;
@@ -27,23 +27,30 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.569);
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+}
+
+.project-thumbnail:hover {
+    box-shadow: 0 0 15px #0091ff;
+    transition: border 0.5s;
+
 }
 
 
-.thumbnail-image {
+.thumbnail-image-p {
     height: 100%;
     overflow: hidden;
     justify-content: center;
+    padding: 20px;
 }
 
-.thumbnail-image img {
+.thumbnail-image-p img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
     border-radius: 5px 5px 0 0;
-    margin-top: 10px;
-
-
+    margin-right: 10px;
+    box-shadow: 0 0 30px #00000091;
 }
 
 .project-details {
@@ -52,6 +59,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .project-details p {
@@ -60,9 +68,8 @@
     justify-content: left;
     margin: 0;
     margin-left: 5px;
+
 }
-
-
 
 h1 {
     margin-top: 10;
@@ -80,6 +87,7 @@ h1 {
 .project-link:hover{
     display: block;
     color: white;
+
 }
 
 .lang {
@@ -87,8 +95,9 @@ h1 {
     height: 5vh;
     background-color: #0091ff19;
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30%;;
     justify-content: center;
 
 }
