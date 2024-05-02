@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: 'Email Client Prototype',
-    lang: ['js.png', 'html-css.jpg'],
+    lang: ['js.png', 'html.png'],
     subtitle: 'HTML CSS JAVASCRIPT ',
     text: 'This is a project',
     image: 'project1.png',

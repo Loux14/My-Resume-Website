@@ -6,43 +6,67 @@
   .skill-thumbnails {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
   }
   
   .skill-thumbnail {
-    width: calc(33.33% - 20px); /* Pour que trois vignettes occupent la largeur avec un espacement entre elles */
+    width: calc(20% - 0px); /* Pour que trois vignettes occupent la largeur avec un espacement entre elles */
+    height: 200px;
     margin-bottom: 20px; /* Espacement entre les vignettes */
-    background-color: #282c34;
+    background-color: #005ea709;
     border: 1px solid #0091ff;
     border-radius: 5px;
     overflow: hidden;    
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.569);
+    
+
+
   }
   
   .thumbnail-image {
-    height: 50%;
+    height:50%;
     overflow: hidden;
     justify-content: center;
   }
   
   .thumbnail-image img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: scale-down;
     border-radius: 5px 5px 0 0;
     margin-top: 10px;
   }
   
   .skill-details {
-    padding: 15px;
-  }
+    height: 50%;
+    /* padding: 10px; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
   
   .skill-details h2 {
     margin-top: 0;
     margin-bottom: 10px;
+    color: #0091ff;
   }
   
   .skill-details p {
     margin: 0;
+    color: #0091ff6c;
+  }
+
+  .level {
+    display: flex;
+    justify-content: left;
+
+  }
+
+  .xp {
+    margin-right: 10px;
+    display: flex;
+    justify-content: left;
   }
   
