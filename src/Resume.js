@@ -2,12 +2,10 @@ import React from 'react';
 import './Resume.css';
 
 function Resume() {
-  const downloadPdf = () => {
-    const pdfUrl = 'Lucas_G_2024.pdf';
-
+  const downloadPdf = (pdfUrl) => {
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'Lucas_G_2024.pdf';
+    link.download = pdfUrl.split('/').pop(); // Télécharge le fichier avec son nom
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -15,11 +13,21 @@ function Resume() {
 
   return (
     <div className='Resume'>
-      <div>
-        <button onClick={downloadPdf}>Download PDF</button>
+      <div className='block-info'>
+        <div>
+          <button onClick={() => downloadPdf('Lucas_G_2024.pdf')}>Download Resume</button>
+        </div>
+        <div className="PhotoResume">
+          <img src="Resume_Pic_LucasG_2024.png" alt="Resume" />
+        </div>
       </div>
-      <div className="PhotoResume">
-        <img src="Resume_Pic_LucasG_2024.png" alt="Resume" />
+      <div className='block-info'>
+        <div>
+          <button onClick={() => downloadPdf('results.pdf')}>Download University Results</button>
+        </div>
+        <div className="PhotoResume">
+          <img src="results.png" alt="Results" />
+        </div>
       </div>
     </div>
   );

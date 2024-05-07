@@ -4,7 +4,7 @@
   display: flex;
   height: 50vh;
   font-family: 'Arial', sans-serif;
-  color: #0091ff; 
+  color: #0091ffa7; 
   min-height: 100vh;
   margin-top: 5vh;
   margin-bottom: 0px;
@@ -22,6 +22,7 @@
   border: 2px solid #0091ff;
 }
 
+
 .PhotoIntro img {
   max-width: 100%;
   max-height: 100%;
@@ -34,6 +35,11 @@
   margin-right: 10%;
   size: 100vh;
 
+}
+
+.TextZoneIntro b, h2{
+
+  color: #0091ff;
 }
 
 

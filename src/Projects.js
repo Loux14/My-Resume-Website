@@ -1,33 +1,33 @@
 import React from 'react';
-import './Projects.css'; // Assurez-vous de créer ce fichier CSS pour le style
+import './Projects.css';
 
 
-// Définissez vos projets sous forme de tableau d'objets
+
 const projects = [
   {
     id: 1,
     title: 'Email Client',
     lang: ['js.png', 'html.png'],
     subtitle: 'Semester 1',
-    text: 'This is a project',
+    text: 'First project ever, a simple email client able to send and display emails. Login and password are functionnal but not secure. Fake emails are in the local storage just for the exemple.',
     image: 'project1.png',
-    link: '/projet1' // Lien vers les détails du projet
+    link: 'https://github.com/Loux14/Mail-Client'
   },
   {
     id: 2,
     title: 'Enigma',
     lang: ['java.png'],
     subtitle: 'Semester 2',
-    text: 'This is a project',
+    text: 'Simplified Enigma Machine, without a GUI. The machine is able to encrypt and decrypt messages. The rotors positions are customizable.',
     image: 'project2.png',
-    link: '/projet2'
+    link: 'https://github.com/Loux14/Enigma'
   },
   {
     id: 3,
     title: 'Resume Website',
     lang: ['react.png'],
-    subtitle: 'Semester 3 - Personal Project',
-    text: 'This is a project',
+    subtitle: 'Semester 3 - Personal',
+    text: 'This website is a first project to learn React.js basics.',
     image: 'project3.png',
     link: '/projet2'
   },
@@ -36,27 +36,27 @@ const projects = [
     title: 'Subway',
     lang: ['java.png'],
     subtitle: 'Semester 2',
-    text: 'This is a project',
+    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations (within the code). It uses 2 algorithms: Dijkstra and Bellman-Ford.',
     image: 'subway.png',
-    link: '/projet2'
+    link: 'https://github.com/Loux14/Paris-Subway'
   },
   {
     id: 5,
     title: 'Mail Server',
     lang: ['js.png', 'node.png', 'html.png'],
     subtitle: 'Semester 1',
-    text: 'This is a project',
+    text: 'The goal of the project was to serve the mail client with a server. The server is able to store encrypted emails, and display them to the client.',
     image: 'mail-server.png',
-    link: '/projet2'
+    link: 'https://github.com/Loux14/Mail-Server'
   },
   {
     id: 6,
     title: 'Ducky Script',
     lang: ['ducky-script.png'],
-    subtitle: 'Semester 2 - Personal Project',
-    text: 'This is a project',
+    subtitle: 'Semester 2 - Personal',
+    text: 'Small script to try out a Raspberry Pi Pico turned into a bad USB Rubber Ducky, hidden inside an iPhone 7',
     image: 'ducky.png',
-    link: '/projet2'
+    link: 'https://github.com/Loux14/duckyScript'
   },
 
 
@@ -78,7 +78,7 @@ function Projects() {
                 <img key={index} src={image} alt={`Vignette ${index}`} className='lang' />
               ))}
             </div>
-            <p>{project.subtitle}</p>
+            <p style={{ fontSize: '1.2em' }}><strong>{project.subtitle}</strong></p>
             <p>{project.text}</p>
           </div>
 

@@ -1,8 +1,7 @@
 import React from 'react';
-import './Skills.css'; // Assurez-vous de créer ce fichier CSS pour le style
-
+import './Skills.css';
 function Skills() {
-  // Tableau de compétences
+  
   const skills = [
     { id: 2, title: 'Java', description: 'Description de la compétence 2', xp: '18 months', level: 'Advanced', image: 'java.png' },
     { id: 1, title: 'JavaScript', description: 'Description de la compétence 1', xp: '2 years', level: 'Intermediate', image: 'js.png' },
