@@ -9,7 +9,7 @@ const projects = [
     title: 'Email Client',
     lang: ['js.png', 'html.png'],
     subtitle: 'Semester 1',
-    text: 'First project ever, a simple email client able to send and display emails. Login and password are functionnal but not secure. Fake emails are in the local storage just for the exemple.',
+    text: 'First project ever, a simple email client able to send and display emails or contacts. Fake emails and contacts are in the local storage just for the exemple.',
     image: 'project1.png',
     link: 'https://github.com/Loux14/Mail-Client'
   },
