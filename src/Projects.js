@@ -36,7 +36,7 @@ const projects = [
     title: 'Subway',
     lang: ['java.png'],
     subtitle: 'Semester 2',
-    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations (within the code). It uses 2 algorithms: Dijkstra and Bellman-Ford.',
+    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations.',
     image: 'subway.png',
     link: 'https://github.com/Loux14/Paris-Subway'
   },
