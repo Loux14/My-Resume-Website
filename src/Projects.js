@@ -29,7 +29,7 @@ const projects = [
     subtitle: 'Semester 3 - Personal',
     text: 'This website is a first project to learn React.js basics.',
     image: 'project3.png',
-    link: '/projet2'
+    link: 'https://github.com/Loux14/My-Resume-Website'
   },
   {
     id: 4,
