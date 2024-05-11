@@ -10,3 +10,4 @@ Project to learn React.js
 
 
 
+![pic3](https://github.com/Loux14/Notion-Page/assets/122696881/96e041af-459a-4195-bfb5-f884062ef5d7)
