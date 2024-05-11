@@ -15,14 +15,14 @@
   height: 200px;
   margin-bottom: 20px;
   background-color: #005ea709;
-  border: 1px solid #0091ff;
+  border: 1px solid #5fbaff;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.569);
 }
 
 .skill-thumbnail:hover {
-  box-shadow: 0 0 15px #0091ff;
+  box-shadow: 0 0 15px #5fbaff;
   transition: border 0.5s;
 }
 
@@ -52,12 +52,12 @@
 .skill-details h2 {
   margin-top: 0;
   margin-bottom: 10px;
-  color: #0091ff;
+  color: #5fbaff;
 }
 
 .skill-details p {
   margin: 0;
-  color: #0091ffa7;
+  color: #5fbaffa7;
 }
 
 .level {

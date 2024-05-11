@@ -8,18 +8,18 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    color: #0091ff;
+    color: #5fbaff;
 
   }
   
   th, td {
-    border: 1px solid #0091ff;
+    border: 1px solid #5fbaff;
     padding: 8px;
     text-align: left;
   }
   
   th {
-    background-color: #0091ff;
+    background-color: #5fbaff;
     color: #282c34;
   }
 
@@ -27,7 +27,7 @@
 
 /* Effet de survol sur les lignes */
 tr:hover {
-    background-color: #0091ff;
+    background-color: #5fbaff;
     cursor: pointer; 
     color: #282c34;
 }

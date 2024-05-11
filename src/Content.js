@@ -24,7 +24,7 @@ function Content() {
           <li className={selectedItem === 'Skills' ? 'active' : ''} onClick={() => handleItemClick('Skills')}>Skills</li>
           <li className={selectedItem === 'Projects' ? 'active' : ''} onClick={() => handleItemClick('Projects')}>Projects</li>
           <li className={selectedItem === 'Resume' ? 'active' : ''} onClick={() => handleItemClick('Resume')}>Documents</li>
-          <li className={selectedItem === 'Notable' ? 'active' : ''} onClick={() => handleItemClick('Notable')}>Notable</li>
+          <li className={selectedItem === 'Notable' ? 'active' : ''} onClick={() => handleItemClick('Notable')}>Prizes</li>
           <li className={selectedItem === 'References' ? 'active' : ''} onClick={() => handleItemClick('References')}>References</li>
           <li className={selectedItem === 'Contact' ? 'active' : ''} onClick={() => handleItemClick('Contact')}>Contact</li>
 

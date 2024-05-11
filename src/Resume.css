@@ -9,6 +9,7 @@
     min-height: 100vh;
     padding-top: 5vh;
     flex-direction: row;
+    justify-content: center;
 
 }
 
@@ -16,27 +17,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5%;
+    margin: 5% 2.5% 5% 2.5%;
     padding-top: 33vh;
 }
 
 .PhotoResume {
     margin-top: 5%;
     padding-bottom: 10vh;
+    justify-content: center;
+
 }
 
 
 .PhotoResume img {
-    max-height: 100vh;
+    height: 100vh;
+    width: 100%;
     border-radius: 2%;
-    border: 2px solid #0091ff;
-}
+    border: 2px solid #5fbaff;
+
+}   
 
 .Resume button {
     display: inline-block;
     padding: 20px 40px;
     width: auto;
-    background-color: #0091ff;
+    background-color: #5fbaff;
     color: #282c34;
     border: none;
     cursor: pointer;
@@ -51,7 +56,7 @@
 
 .Resume button:hover {
     background-color: #003a65;
-    color: #0091ff;
+    color: #5fbaff;
     cursor: pointer;
 }
 

@@ -46,7 +46,7 @@
 } 
 .TopPanel li:hover {
   background-color: #003a65;
-  color: #0091ff;
+  color: #5fbaff;
   cursor: pointer;
 }
 
@@ -56,6 +56,6 @@
 
 
 .TopPanel li.active {
-  color: #0091ff;
+  color: #5fbaff;
 }
 

@@ -8,7 +8,7 @@
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     font-size: 10vh;
-    color: #0091ff; 
+    color: #5fbaff; 
     
   }
 
@@ -16,7 +16,7 @@ button {
     display: inline-block;
     padding: 20px 40px;
     width: auto;
-    background-color: #0091ff;
+    background-color: #5fbaff;
     color: #282c34;
     border: none;
     cursor: pointer;
@@ -27,7 +27,7 @@ button {
   
   button:hover {
     background-color: #003a65;
-    color: #0091ff;
+    color: #5fbaff;
     cursor: pointer;
   }
   

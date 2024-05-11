@@ -1,7 +1,7 @@
 .contacts-container {
     padding: 20px;
     font: 1.5em 'Arial', sans-serif;
-    color: #0091ff4d;
+    color: #5fbaff4d;
     text-align: center ; 
 
   }
@@ -16,7 +16,7 @@
   }
   
   .contact-info a {
-    color: #0091ff;
+    color: #5fbaff;
     text-decoration: none;
   }
   

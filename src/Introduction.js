@@ -6,7 +6,7 @@ function Introduction() {
     <div className="Introduction">
       <div className="PhotoIntro">
 
-        <img src="photo_LucasG." alt="Lucas G" />
+        <img src="photo_LucasG.jpg" alt="Lucas G" />
       </div>
       <div className="TextZoneIntro">
         <h2>My name is Lucas, I’m 33 years old and I'm a 2nd
