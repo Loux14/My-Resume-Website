@@ -9,4 +9,4 @@ Project to learn React.js
 ![pic2](https://github.com/Loux14/Notion-Page/assets/122696881/4aee5d2f-b2d7-4aa2-bd02-217202caf670)
 
 
-![Screenshot 2024-05-11 at 1 28 43 PM](https://github.com/Loux14/Notion-Page/assets/122696881/1d698059-2776-444c-a5c9-881544ec0d43)
+
