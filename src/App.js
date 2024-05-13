@@ -13,6 +13,7 @@ function App() {
     setEntered(true)
   }
   return (
+    
     <div className="App">
       {!entered && <WelcomePage onEnter={handleClick}/>}
       {entered && <Content/>}
