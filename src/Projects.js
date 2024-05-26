@@ -33,12 +33,12 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Subway',
-    lang: ['java.png'],
-    subtitle: 'Semester 2',
-    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations.',
-    image: 'subway.png',
-    link: 'https://github.com/Loux14/Paris-Subway'
+    title: 'Log in System',
+    lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
+    subtitle: 'Semester 3',
+    text: 'Log in system with a database, able to create new users, log in, and log out. The database stores information about the users and logs, with hash and salt for the password.',
+    image: 'new_user.png',
+    link: 'https://github.com/Loux14/logged'
   },
   {
     id: 5,
@@ -58,6 +58,17 @@ const projects = [
     image: 'ducky.png',
     link: 'https://github.com/Loux14/duckyScript'
   },
+  {
+    id: 7,
+    title: 'Subway',
+    lang: ['java.png'],
+    subtitle: 'Semester 2',
+    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations.',
+    image: 'subway.png',
+    link: 'https://github.com/Loux14/Paris-Subway'
+  },
+
+
 
 
 

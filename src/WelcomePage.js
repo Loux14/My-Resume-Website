@@ -5,7 +5,7 @@ function WelcomePage({onEnter}) {
 
   return (
     <div className="WelcomePage">
-      <p> Lucas G. <br/>Programmer</p>
+      <p> Lucas G. <br/>Junior Developer</p>
       <button onClick={onEnter}> Enter</button>
     </div>
   );
