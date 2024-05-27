@@ -33,10 +33,10 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Log in System',
+    title: 'Login System',
     lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
     subtitle: 'Semester 3',
-    text: 'Log in system with a database, able to create new users, log in, and log out. The database stores information about the users and logs, with hash and salt for the password.',
+    text: 'Login system with a database, able to create new users, log in, and log out. The database stores information about the users and logs, with hash and salt for the password.',
     image: 'new_user.png',
     link: 'https://github.com/Loux14/logged'
   },
