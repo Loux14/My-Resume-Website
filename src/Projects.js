@@ -15,15 +15,6 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Enigma',
-    lang: ['java.png'],
-    subtitle: 'Semester 2',
-    text: 'Simplified Enigma Machine, without a GUI. The machine is able to encrypt and decrypt messages. The rotors positions are customizable.',
-    image: 'project2.png',
-    link: 'https://github.com/Loux14/Enigma'
-  },
-  {
-    id: 3,
     title: 'Resume Website',
     lang: ['react.png'],
     subtitle: 'Semester 3 - Personal',
@@ -32,7 +23,7 @@ const projects = [
     link: 'https://github.com/Loux14/My-Resume-Website'
   },
   {
-    id: 4,
+    id: 3,
     title: 'Login System',
     lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
     subtitle: 'Semester 3',
@@ -41,7 +32,7 @@ const projects = [
     link: 'https://github.com/Loux14/logged'
   },
   {
-    id: 5,
+    id: 4,
     title: 'Mail Server',
     lang: ['js.png', 'node.png', 'html.png'],
     subtitle: 'Semester 1',
@@ -49,6 +40,16 @@ const projects = [
     image: 'mail-server.png',
     link: 'https://github.com/Loux14/Mail-Server'
   },
+  {
+    id: 5,
+    title: 'Enigma',
+    lang: ['java.png'],
+    subtitle: 'Semester 2',
+    text: 'Simplified Enigma Machine, without a GUI. The machine is able to encrypt and decrypt messages. The rotors positions are customizable.',
+    image: 'project2.png',
+    link: 'https://github.com/Loux14/Enigma'
+  },
+
   {
     id: 6,
     title: 'Ducky Script',
