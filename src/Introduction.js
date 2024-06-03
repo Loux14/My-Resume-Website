@@ -9,7 +9,7 @@ function Introduction() {
         <img src="photo_LucasG.jpg" alt="Lucas G" />
       </div>
       <div className="TextZoneIntro">
-        <h2>My name is Lucas, I’m 33 years old and I'm a 2nd
+        <h2>My name is Lucas and I'm a 2nd
           year student in Computer Science.
         </h2>
         <p>After 10 year being an optician, a clinic manager and even an
