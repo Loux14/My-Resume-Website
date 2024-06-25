@@ -11,8 +11,8 @@ function Teaching() {
                 <h2>Summer 2024</h2>
                 <div className="PhotoTeaching">
                     <img src="cyb1003.jpg" alt="Cybersecurity" />
-                    <p>I've been offered to take charge of 2 groups of first year students in Computer Science, at the Université du Québec en Outaouais.
-                    Under the supervision of Myria Bouhaddi PhD, I was in charge of the lab sessions, where I was able to help the students with the following subjects :</p>
+                    <p>I've been offered to take in charge two groups of first year students in Computer Science, at the Université du Québec en Outaouais.
+                    Under the supervision of Myria Bouhaddi Ph.D, I was doing the lab sessions, where I was able to help the students with the following subjects :</p>
                 
                 </div>
                 <br></br>
@@ -20,28 +20,34 @@ function Teaching() {
                 
                 <div className="TeachingList">
                 <ul>            
-                <li>Vigenere Cryptography</li>
+                <li>Affine Cryptography</li>
                 <li>Substitution Cryptography</li>
-                <li>DES Cryptography</li>
-                <li>Public Key Cryptography</li>
-                <li>Hash Functions</li>
-                <li>Firewall</li>
-                <li>IDS</li>
-                <li>VPN</li>
-                <li>PKI</li></ul>
+                <li>Polybe Square Cryptography</li>
+                <li>Permutation Cryptography</li>
+                <li>Vigenere Crypto</li>
+                <li>Vernam</li>
+                <li>Hill</li>
+                <li>RSA</li>
+                <li>Feistel</li>
+                <li>DES</li>
+                </ul>
     
                 <ul>               
-                <li>Security Protocols</li>
-                <li>Security Policies</li>
-                <li>Security Standards</li>
-                <li>Security Risks</li>
-                <li>Security Management</li>
-                <li>Security Audits</li>
-                <li>Security Incident Management</li>
-                <li>Security Incident Response</li>
-                <li>Security Incident Investigation</li>
+  
+                <li>TCP/IP</li>
+                <li>Vulnerabilities</li>
+                <li>IDS/IPS</li>
+                <li>Firewall ipTables</li>
+                <li>OCTAVE MEHARI</li>
+                <li>Access Control</li>
+                <li>VPN</li>
+                <li>Kali / VM</li>
+                <li>WireShark Nmap</li>
+                <li>Metasploit</li>
                 </ul>
                 </div>
+
+
 
 
                 
