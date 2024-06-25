@@ -11,7 +11,7 @@ function Teaching() {
                 <h2>Summer 2024</h2>
                 <div className="PhotoTeaching">
                     <img src="cyb1003.jpg" alt="Cybersecurity" />
-                    <p>I've been offered to take charged of 2 groups of first year students in Computer Science, at the Université du Québec en Outaouais.
+                    <p>I've been offered to take charge of 2 groups of first year students in Computer Science, at the Université du Québec en Outaouais.
                     Under the supervision of Myria Bouhaddi PhD, I was in charge of the lab sessions, where I was able to help the students with the following subjects :</p>
                 
                 </div>
