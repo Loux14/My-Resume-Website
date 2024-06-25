@@ -6,6 +6,7 @@ import References from './References'
 import Contacts from './Contacts'
 import Skills from './Skills'
 import Notable from './Notable'
+import Teaching from './Teaching'
 import './App.css'
 
 
@@ -25,6 +26,7 @@ function Content() {
           <li className={selectedItem === 'Projects' ? 'active' : ''} onClick={() => handleItemClick('Projects')}>Projects</li>
           <li className={selectedItem === 'Resume' ? 'active' : ''} onClick={() => handleItemClick('Resume')}>Documents</li>
           <li className={selectedItem === 'Notable' ? 'active' : ''} onClick={() => handleItemClick('Notable')}>Prizes</li>
+          <li className={selectedItem === 'Teaching' ? 'active' : ''} onClick={() => handleItemClick('Teaching')}>Teaching</li>
           <li className={selectedItem === 'References' ? 'active' : ''} onClick={() => handleItemClick('References')}>References</li>
           <li className={selectedItem === 'Contact' ? 'active' : ''} onClick={() => handleItemClick('Contact')}>Contact</li>
 
@@ -38,8 +40,10 @@ function Content() {
         {selectedItem === 'Projects' && <Projects />}
         {selectedItem === 'Skills' && <Skills />}
         {selectedItem === 'Notable' && <Notable />}
+        {selectedItem === 'Teaching' && <Teaching />}
         {selectedItem === 'References' && <References />}
         {selectedItem === 'Contact' && <Contacts />}
+
 
       </div>
     </div>
