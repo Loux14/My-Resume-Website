@@ -20,29 +20,29 @@ function Teaching() {
                 
                 <div className="TeachingList">
                 <ul>            
-                <li>Affine Cryptography</li>
-                <li>Substitution Cryptography</li>
-                <li>Polybe Square Cryptography</li>
-                <li>Permutation Cryptography</li>
-                <li>Vigenere Crypto</li>
-                <li>Vernam</li>
-                <li>Hill</li>
-                <li>RSA</li>
-                <li>Feistel</li>
-                <li>DES</li>
+                <li>Affine Cipher</li>
+                <li>Substitution Cipher</li>
+                <li>Polybius Square Cipher</li>
+                <li>Permutation Cipher</li>
+                <li>Vigenere Cipher</li>
+                <li>Vernam Cipher</li>
+                <li>Hill Cipher</li>
+                <li>Feistel Cipher</li>
+                <li>RSA Encryption</li>
+                <li>DES Encryption</li>
                 </ul>
     
                 <ul>               
   
-                <li>TCP/IP</li>
-                <li>Vulnerabilities</li>
-                <li>IDS/IPS</li>
-                <li>Firewall ipTables</li>
-                <li>OCTAVE MEHARI</li>
-                <li>Access Control</li>
+                <li>TCP/IP Protocol</li>
+                <li>IDS / IPS</li>
+                <li>Firewall / IPtables</li>
+                <li>OCTAVE Risk Assessment</li>
+                <li>MEHARI Risk Assessment</li>
                 <li>VPN</li>
-                <li>Kali / VM</li>
-                <li>WireShark Nmap</li>
+                <li>Kali / Virtual Machines</li>
+                <li>WireShark</li>
+                <li>NMap</li>
                 <li>Metasploit</li>
                 </ul>
                 </div>
