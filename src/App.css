@@ -18,6 +18,138 @@
   padding: 10px;
   position: top;
   top: 0;
+  width: 100%;
+}
+
+.TopPanel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.TopPanel li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 5vh;
+}
+
+.TopPanel li:hover {
+  background-color: #003a65;
+  color: #5fbaff;
+  cursor: pointer;
+}
+
+.TopPanel li:active {
+  color: #00457a;
+}
+
+.TopPanel li.active {
+  color: #5fbaff;
+  text-shadow: none;
+}
+
+@media (max-width: 1349px) {
+  .TopPanel {
+    background-color: #003a65;
+    color: #342828;
+    padding: 10px;
+    position: top;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .TopPanel ul {
+    display: none;
+    flex-direction: column;
+    background-color: #003a65;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    left: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  .TopPanel ul.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 5vh;
+    color: #5fbaff;
+  }
+
+  .TopPanel ul li {
+    display: block;
+    margin: 0;
+    padding: 15px;
+    font-size: 4vh;
+  }
+
+  .TopPanel ul li:hover {
+    background-color: #342828;
+    color: #5fbaff;
+  }
+
+  .TopPanel ul li.active {
+    color: #5fbaff;
+  }
+
+  .menu-icon {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 7vh;
+    color: #5fbaff;
+    justify-self: flex-end;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NameMenu {
+    display: flex;
+    padding: 10px;
+    font-size: 7vh;
+    color: #342828;
+    text-align: left;
+    margin-right: 5vh;
+  }
+}
+
+@media (min-width: 1350px) {
+  .menu-icon {
+    display: none;
+  }
+  .NameMenu {
+    display: none;
+  }
+}
+
+/* .App {
+  text-align: center;
+  min-height: 100vh;
+  flex: 1;
+  background-color: #282c34;
+  max-height: 100vh;
+}
+ 
+.Content {
+  background-color: #282c34;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.TopPanel {
+  background-color: #003a65;
+  color: #342828;
+  padding: 10px;
+  position: top;
+  top: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -73,4 +205,4 @@
 
 .TopPanel ul li.active {
   color: #5fbaff;
-}
+} */
