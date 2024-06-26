@@ -14,7 +14,6 @@
 .block-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 5% 2.5% 5% 2.5%;
   /* padding-top: 33vh; */
 }
@@ -22,7 +21,6 @@
 .PhotoResume {
   margin-top: 5%;
   padding-bottom: 10vh;
-  justify-content: center;
 }
 
 .PhotoResume img {
@@ -73,6 +71,6 @@
   }
 
   .PhotoResume {
-    width: 90vw;
+    margin: 5vh;
   }
 }
