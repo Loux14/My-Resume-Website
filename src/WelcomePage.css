@@ -35,3 +35,9 @@ button:active {
   color: #00457a;
   background-color: #282c34;
 }
+
+.NameMenu a {
+  color: #282c34;
+  text-decoration: none;
+  font-style: bold;
+}
