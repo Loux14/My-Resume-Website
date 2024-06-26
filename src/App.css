@@ -31,6 +31,7 @@
   top: 50px;
   left: 0;
   padding: 0;
+  box-sizing: content-box;
 }
 
 .TopPanel ul.show {
@@ -41,7 +42,7 @@
   display: flex;
   padding: 10px;
   cursor: pointer;
-  font-size: 5vh;
+  font-size: 7vh;
   color: #5fbaff;
   justify-self: flex-end;
   justify-content: center;
@@ -51,7 +52,7 @@
 .NameMenu {
   display: flex;
   padding: 10px;
-  font-size: 5vh;
+  font-size: 7vh;
   color: #342828;
   text-align: left;
   margin-right: 5vh;
