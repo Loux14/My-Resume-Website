@@ -34,7 +34,7 @@ function Teaching() {
     
                 <ul>               
   
-                <li>TCP/IP Protocol</li>
+                <li>TCP / IP Protocol</li>
                 <li>IDS / IPS</li>
                 <li>Firewall / IPtables</li>
                 <li>OCTAVE Risk Assessment</li>

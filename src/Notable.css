@@ -43,3 +43,9 @@ padding: 2% 5% 5% 5%;
 .TextZoneNotable b, h2, h1{
     color: #5fbaff;
 }
+
+@media (max-width: 900px) {
+    .PhotoNotable img {
+        width: 100%;
+    }
+}

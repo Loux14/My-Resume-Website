@@ -19,7 +19,7 @@
 }
 
 .project-thumbnail {
-    width: calc(20% - 0px);
+    width: 50vh;
     background-color: #005ea709;
     border: 1px solid #0091ff;
     border-radius: 5px;
@@ -102,4 +102,11 @@ h1 {
     margin-bottom: 30%;;
     justify-content: center;
 
+}
+
+@media (max-width: 900px) {
+    .project-thumbnail {
+        width: 80vw;
+
+  }
 }

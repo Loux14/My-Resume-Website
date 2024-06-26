@@ -9,19 +9,13 @@ body {
 
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 900px) {
   body {
-    overflow-y: scroll;
-    overflow-x: scroll;
-  }
+    overflow-x: hidden;
 
-@media (max-height: 600px) {
-  body {
-    overflow-y: scroll;
-    overflow-x: scroll;
   }
 }
-} */
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

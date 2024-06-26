@@ -4,7 +4,7 @@ import './Contacts.css';
 function Contacts() {
   return (
     <div className="contacts-container">
-      <h1>Contact Informations</h1>
+      <h1>Contact</h1>
       <div className="contact-info">
         <p><strong>Phone</strong> <a href="tel:+1234567890"> 819 351 2327</a></p>
         <p><strong>Email</strong> <a href="mailto:youremail@example.com" target="_blank" rel="noopener noreferrer">lucas.gourlia@pm.me</a></p><br/>
