@@ -6,15 +6,11 @@ Project to learn React.js
 https://www.lucas-g.ca
 
 
-Not optimized for mobile devices (yet)
+<img width="1464" alt="Screenshot 2024-06-25 at 10 24 36 PM" src="https://github.com/Loux14/My-Resume-Website/assets/122696881/9f09eeb6-cb95-4f01-8290-4117a41b3677">
 
+<img width="1462" alt="Screenshot 2024-06-25 at 10 25 36 PM" src="https://github.com/Loux14/My-Resume-Website/assets/122696881/b03d4c10-c8ab-4fd3-a3dd-1893231939a6">
 
+<img width="443" alt="Screenshot 2024-06-25 at 10 25 56 PM" src="https://github.com/Loux14/My-Resume-Website/assets/122696881/6fd945b7-bfce-460c-94da-227d3ba565fd">
 
-![pic1](https://github.com/Loux14/Notion-Page/assets/122696881/6d29285b-cad9-47b9-b087-38fd4cb7e0a4)
+<img width="445" alt="Screenshot 2024-06-25 at 10 24 58 PM" src="https://github.com/Loux14/My-Resume-Website/assets/122696881/061f600b-bfb5-46f4-8475-0a1f79462c49">
 
-
-![pic2](https://github.com/Loux14/Notion-Page/assets/122696881/4aee5d2f-b2d7-4aa2-bd02-217202caf670)
-
-
-
-![pic3](https://github.com/Loux14/Notion-Page/assets/122696881/96e041af-459a-4195-bfb5-f884062ef5d7)
