@@ -25,7 +25,7 @@ function Content() {
   return (
     <div className="Content">
       <div className="TopPanel">
-      <div className="NameMenu"><a href='www.lucas-g.com' rel="noopener noreferrer">Lucas G</a></div>
+      <div className="NameMenu"><a href="http://www.lucas-g.ca" rel="noopener noreferrer">Lucas G</a></div>
         <div className="menu-icon" onClick={toggleMenu}>
           ☰
         </div>
