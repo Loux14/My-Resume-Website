@@ -58,7 +58,7 @@
   background-color: #282c34;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .Resume {
     flex-direction: column;
     align-items: center;
