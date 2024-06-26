@@ -63,7 +63,7 @@ h1 {
 
 .TeachingList li {
   margin: 5vh;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 @media (max-width: 900px) {

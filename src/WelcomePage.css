@@ -1,39 +1,37 @@
 .WelcomePage {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: 10vh;
-    color: #5fbaff; 
-    
-  }
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 7.5vh;
+  color: #5fbaff;
+}
 
 button {
-    display: inline-block;
-    padding: 20px 40px;
-    width: auto;
-    background-color: #5fbaff;
-    color: #282c34;
-    border: none;
-    cursor: pointer;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: 10vh;
-  }
-  
-  button:hover {
-    background-color: #003a65;
-    color: #5fbaff;
-    cursor: pointer;
-  }
-  
-  button:active {
-    transform: translateY(3px);
-    color: #00457a;
-    background-color: #282c34;
-  }
-  
+  display: inline-block;
+  padding: 20px 40px;
+  width: auto;
+  background-color: #5fbaff;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 7.5vh;
+}
+
+button:hover {
+  background-color: #003a65;
+  color: #5fbaff;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(3px);
+  color: #00457a;
+  background-color: #282c34;
+}
