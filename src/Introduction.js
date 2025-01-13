@@ -12,8 +12,7 @@ function Introduction() {
         <p>
           After 10 years as an optician, clinic manager, and optics teacher, I
           began a full-time Bachelor’s Degree in Computer Science at the
-          Université du Québec en Outaouais, Gatineau (QC), in January 2023. I
-          am now seeking my first experience in the field.
+          Université du Québec en Outaouais, Gatineau (QC), in January 2023.
         </p>
         <h2>What you can expect from me :</h2>
         <li>

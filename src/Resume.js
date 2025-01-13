@@ -15,12 +15,12 @@ function Resume() {
     <div className="Resume">
       <div className="block-info">
         <div>
-          <button onClick={() => downloadPdf("Lucas_G_2024.pdf")}>
+          <button onClick={() => downloadPdf("Lucas_G_2025.pdf")}>
             Download Resume
           </button>
         </div>
         <div className="PhotoResume">
-          <img src="Resume_Pic_LucasG_2024.png" alt="Resume" />
+          <img src="Resume_Pic_LucasG_2025.png" alt="Resume" />
         </div>
       </div>
       <div className="block-info">

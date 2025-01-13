@@ -15,11 +15,11 @@
   display: flex;
   flex-direction: column;
   margin: 5% 2.5% 5% 2.5%;
-  /* padding-top: 33vh; */
 }
 
 .PhotoResume {
-  margin-top: 5%;
+  max-width: 100ch;
+  margin-top: 5vh;
   padding-bottom: 10vh;
 }
 

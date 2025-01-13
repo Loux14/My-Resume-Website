@@ -3,8 +3,9 @@ import './References.css';
 
 function References() {
   const refs = [
-    { name: 'Ms. Caroline Lafrance', role: 'Supervisor', period: 'present', place: 'La Lunetterie Locale', contact: '819-500-2448', language: 'FR-EN' },
-    { name: 'Dre. Laudy El-Howayek', role: 'Employer', period: 'present', place: 'La Lunetterie Locale', contact: 'info@lalunetterielocale.ca', language: 'FR-EN' },
+    { name: 'Mr. Eric N.', role: 'Supervisor', period: 'present', place: 'Lavue.ca', contact: '**Available on demand**', language: 'FR-EN' },
+    { name: 'Ms. Caroline Lafrance', role: 'Supervisor', period: '2022-2024', place: 'La Lunetterie Locale', contact: '819-500-2448', language: 'FR-EN' },
+    { name: 'Dre. Laudy El-Howayek', role: 'Employer', period: '2022-2024', place: 'La Lunetterie Locale', contact: 'info@lalunetterielocale.ca', language: 'FR-EN' },
     { name: 'Ms. Emilie Baillargeon', role: 'Operations Director', period: '2021-2022', place: 'Entrepot de la Lunette', contact: '514-758-6769', language: 'FR-EN' },
     { name: 'Mr. Jean-Laurent Boulon ', role: 'Regional Manager', period: '2021-2022', place: 'Entrepot de la Lunette', contact: 'jlovar83@gmail.com', language: 'FR-EN' },
     { name: 'Ms. Othis Matunguila', role: 'Employee', period: '2021-2022', place: 'Entrepot de la Lunette', contact: '343-204-2702', language: 'FR' },
