@@ -8,7 +8,7 @@ function Introduction() {
         <img src="photo_LucasG.jpg" alt="Lucas G" />
       </div>
       <div className="TextZoneIntro">
-        <h2>My name is Lucas, and I'm a 2nd-year Computer Science student.</h2>
+        <h2>My name is Lucas, and I'm a 3rd-year Computer Science student specializing in cybersecurity.</h2>
         <p>
           After 10 years as an optician, clinic manager, and optics teacher, I
           began a full-time Bachelor’s Degree in Computer Science at the
@@ -48,9 +48,6 @@ function Introduction() {
           <b>Languages:</b> 🇫🇷French (native), 🇬🇧English (fluent), 🇲🇽Spanish
           (functional)
         </li>
-        <h2>What I am looking for :</h2>
-        <li>Internship (4-8-12 months)</li>
-        <li>Part-time job (until graduation)</li>
       </div>
     </div>
   );

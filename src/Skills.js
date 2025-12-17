@@ -11,7 +11,7 @@ function Skills() {
     { id: 12, title: 'HTML', description: 'Description de la compétence 3', xp: '2 years', level: 'Beginner', image: 'html.png' },
     { id: 9, title: 'PHP', description: 'Description de la compétence 3', xp: '3 months', level: 'Novice', image: 'php.png' },
     { id: 10, title: 'Reac Native', description: 'Description de la compétence 3', xp: '6 months', level: 'Beginner', image: 'react-native.png' },
-    { id: 11, title: 'Swift', description: 'Description de la compétence 3', xp: '6 months', level: 'Novice', image: 'swift.png' },
+    { id: 11, title: 'Swift', description: 'Description de la compétence 3', xp: '6 months', level: 'Beginner', image: 'swift.png' },
 
 
     { id: 5, title: 'MySQL', description: 'Description de la compétence 2', xp: '1 year', level: 'Beginner', image: 'mysql.png' },

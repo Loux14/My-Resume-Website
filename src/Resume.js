@@ -11,6 +11,10 @@ function Resume() {
     document.body.removeChild(link);
   };
 
+  const openPdf = (pdfUrl) => {
+    window.open(pdfUrl, "_blank");
+  };
+
   return (
     <div className="Resume">
       <div className="block-info">
@@ -19,7 +23,7 @@ function Resume() {
             Download Resume
           </button>
         </div>
-        <div className="PhotoResume">
+        <div className="PhotoResume" onClick={() => openPdf("Lucas_G_2025.pdf")} style={{ cursor: "pointer" }}>
           <img src="Resume_Pic_LucasG_2025.png" alt="Resume" />
         </div>
       </div>
@@ -29,7 +33,7 @@ function Resume() {
             Download University Results
           </button>
         </div>
-        <div className="PhotoResume">
+        <div className="PhotoResume" onClick={() => openPdf("results.pdf")} style={{ cursor: "pointer" }}>
           <img src="results.png" alt="Results" />
         </div>
       </div>

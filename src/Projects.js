@@ -6,6 +6,24 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
+    title: 'Top App',
+    lang: ['swift.png'],
+    subtitle: 'Semester 4 - Personal',
+    text: 'Ranking App',
+    image: 'top.png',
+    link: 'https://apps.apple.com/ca/app/top-ranking/id6743449298'
+  },
+  {
+    id: 2,
+    title: 'Facial Measurement App',
+    lang: ['swift.png'],
+    subtitle: 'Semester 4 - Professional',
+    text: 'Optical Glasses measurements',
+    image: 'lavue.png',
+    link: 'https://github.com/Loux14/Facial-Measurement-iOS-App/tree/main'
+  },
+  {
+    id: 3,
     title: 'Email Client',
     lang: ['js.png', 'html.png'],
     subtitle: 'Semester 1',
@@ -14,7 +32,7 @@ const projects = [
     link: 'https://github.com/Loux14/Mail-Client'
   },
   {
-    id: 2,
+    id: 4,
     title: 'Resume Website',
     lang: ['react.png'],
     subtitle: 'Semester 3 - Personal',
@@ -23,7 +41,7 @@ const projects = [
     link: 'https://github.com/Loux14/My-Resume-Website'
   },
   {
-    id: 3,
+    id: 5,
     title: 'Login System',
     lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
     subtitle: 'Semester 3',
@@ -32,7 +50,7 @@ const projects = [
     link: 'https://github.com/Loux14/logged'
   },
   {
-    id: 4,
+    id: 6,
     title: 'Mail Server',
     lang: ['js.png', 'node.png', 'html.png'],
     subtitle: 'Semester 1',
@@ -41,7 +59,7 @@ const projects = [
     link: 'https://github.com/Loux14/Mail-Server'
   },
   {
-    id: 5,
+    id: 7,
     title: 'Enigma',
     lang: ['java.png'],
     subtitle: 'Semester 2',
@@ -51,7 +69,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: 'Ducky Script',
     lang: ['ducky-script.png'],
     subtitle: 'Semester 2 - Personal',
@@ -60,15 +78,14 @@ const projects = [
     link: 'https://github.com/Loux14/duckyScript'
   },
   {
-    id: 7,
-    title: 'Subway',
-    lang: ['java.png'],
-    subtitle: 'Semester 2',
-    text: 'Data structure project, to learn graphs. It replicates the Paris Subway, and give the shortest path between two preset stations.',
-    image: 'subway.png',
-    link: 'https://github.com/Loux14/Paris-Subway'
+    id: 9,
+    title: 'BattleShip',
+    lang: ['python.png'],
+    subtitle: 'Semester 4 - Personal',
+    text: 'Terminal BattleShip Game',
+    image: 'bataillenavale.png',
+    link: 'https://github.com/Loux14/Bataille-Navale'
   },
-
 
 
 

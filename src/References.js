@@ -3,7 +3,7 @@ import './References.css';
 
 function References() {
   const refs = [
-    { name: 'Mr. Eric N.', role: 'Supervisor', period: 'present', place: 'Lavue.ca', contact: '**Available on demand**', language: 'FR-EN' },
+    { name: 'Mr. Eric N.', role: 'Technical Supervisor', period: '2024-2025', place: 'Lavue.ca', contact: '**Available on demand**', language: 'FR-EN' },
     { name: 'Ms. Caroline Lafrance', role: 'Supervisor', period: '2022-2024', place: 'La Lunetterie Locale', contact: '819-500-2448', language: 'FR-EN' },
     { name: 'Dre. Laudy El-Howayek', role: 'Employer', period: '2022-2024', place: 'La Lunetterie Locale', contact: 'info@lalunetterielocale.ca', language: 'FR-EN' },
     { name: 'Ms. Emilie Baillargeon', role: 'Operations Director', period: '2021-2022', place: 'Entrepot de la Lunette', contact: '514-758-6769', language: 'FR-EN' },

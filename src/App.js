@@ -15,9 +15,9 @@ function App() {
   return (
     
     <div className="App">
-      {!entered && <WelcomePage onEnter={handleClick}/>}
-      {entered && <Content/>}
-
+      {/* {!entered && <WelcomePage onEnter={handleClick}/>}
+      {entered && <Content/>} */}
+      <Content/>
     </div>
   );
 }
