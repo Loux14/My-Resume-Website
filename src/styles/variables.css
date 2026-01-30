@@ -1,0 +1,73 @@
+:root {
+  /* ===================
+     COLOR PALETTE
+     =================== */
+
+  /* Primary colors */
+  --color-primary: #5fbaff;
+  --color-primary-dark: #0091ff;
+  --color-primary-darker: #00457a;
+
+  /* Background colors */
+  --color-bg-dark: #282c34;
+  --color-bg-navy: #003a65;
+  --color-bg-card: #005ea709;
+
+  /* Text colors */
+  --color-text-primary: #5fbaff;
+  --color-text-secondary: #5fbaffa7;
+  --color-text-muted: #5fbaff4d;
+  --color-text-dark: #342828;
+
+  /* Accent colors */
+  --color-accent-hover: #342828;
+  --color-shadow: rgba(0, 0, 0, 0.569);
+  --color-shadow-dark: #00000091;
+
+  /* ===================
+     SPACING
+     =================== */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 50px;
+
+  /* ===================
+     TYPOGRAPHY
+     =================== */
+  --font-family-primary: "Arial", sans-serif;
+  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+  /* ===================
+     BORDERS & RADIUS
+     =================== */
+  --border-radius-sm: 2%;
+  --border-radius-md: 5px;
+  --border-width: 1px;
+  --border-width-thick: 2px;
+
+  /* ===================
+     TRANSITIONS
+     =================== */
+  --transition-fast: 0.3s ease;
+  --transition-normal: 0.5s ease;
+
+  /* ===================
+     BREAKPOINTS (for reference)
+     =================== */
+  /* Mobile: max-width: 900px */
+  /* Tablet: max-width: 1100px */
+  /* Desktop menu: max-width: 1349px */
+
+  /* ===================
+     SHADOWS
+     =================== */
+  --shadow-card: 0 0 15px var(--color-shadow);
+  --shadow-card-hover: 0 0 15px var(--color-primary);
+  --shadow-image: 0 0 30px var(--color-shadow-dark);
+}

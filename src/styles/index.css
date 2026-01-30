@@ -1,0 +1,19 @@
+@import './variables.css';
+
+body {
+  margin: auto;
+  font-family: var(--font-family-system);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg-dark);
+}
+
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+code {
+  font-family: var(--font-family-mono);
+}

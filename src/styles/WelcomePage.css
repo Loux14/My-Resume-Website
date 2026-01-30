@@ -1,0 +1,46 @@
+.WelcomePage {
+  background-color: var(--color-bg-dark);
+  min-height: 100vh;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-family-primary);
+  font-weight: bold;
+  font-size: 7.5vh;
+  color: var(--color-primary);
+}
+
+/* ===================
+   GLOBAL BUTTON STYLES
+   =================== */
+button {
+  display: inline-block;
+  padding: var(--spacing-lg) 40px;
+  width: auto;
+  background-color: var(--color-primary);
+  color: var(--color-bg-dark);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family-primary);
+  font-weight: bold;
+  font-size: 7.5vh;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+button:hover {
+  background-color: var(--color-bg-navy);
+  color: var(--color-primary);
+}
+
+button:active {
+  transform: translateY(3px);
+  color: var(--color-primary-darker);
+  background-color: var(--color-bg-dark);
+}
+
+.NameMenu a {
+  color: var(--color-bg-dark);
+  text-decoration: none;
+  font-style: normal;
+}

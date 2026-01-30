@@ -1,0 +1,82 @@
+.Resume {
+  background-color: var(--color-bg-dark);
+  text-align: center;
+  display: flex;
+  height: 100%;
+  font-family: var(--font-family-primary);
+  font-weight: bold;
+  color: var(--color-primary-dark);
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block-info {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 2.5% 5% 2.5%;
+}
+
+.PhotoResume {
+  max-width: 100ch;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.PhotoResume img {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--border-radius-sm);
+  border: var(--border-width-thick) solid var(--color-primary);
+}
+
+/* ===================
+   BUTTONS
+   =================== */
+.Resume button {
+  display: inline-block;
+  padding: var(--spacing-lg) 40px;
+  width: auto;
+  background-color: var(--color-primary);
+  color: var(--color-bg-dark);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family-primary);
+  font-weight: bold;
+  max-height: 100vh;
+  font-size: 3vh;
+  border-radius: var(--border-radius-md);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.Resume button:hover {
+  background-color: var(--color-bg-navy);
+  color: var(--color-primary);
+}
+
+.Resume button:active {
+  transform: translateY(3px);
+  color: var(--color-primary-darker);
+  background-color: var(--color-bg-dark);
+}
+
+/* ===================
+   RESPONSIVE
+   =================== */
+@media (max-width: 1000px) {
+  .Resume {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 5vh;
+  }
+
+  .block-info {
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .PhotoResume {
+    margin: 5vh;
+  }
+}

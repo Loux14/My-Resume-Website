@@ -1,0 +1,89 @@
+.Teaching {
+  background-color: var(--color-bg-dark);
+  font-family: var(--font-family-primary);
+  color: var(--color-text-secondary);
+}
+
+.Teaching img {
+  display: flex;
+  border-radius: var(--border-radius-sm);
+  border: var(--border-width-thick) solid var(--color-primary);
+  width: 50vh;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Teaching a {
+  color: var(--color-primary);
+  font-size: 3vh;
+}
+
+.PhotoTeaching {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 3vh;
+  padding: 2% 5% 1% 5%;
+}
+
+.PhotoTeaching img {
+  margin: 2%;
+}
+
+.TextZoneTeaching {
+  padding: 2% 5% 5% 5%;
+}
+
+.TextZoneTeaching b,
+.TextZoneTeaching h2,
+.TextZoneTeaching h1 {
+  color: var(--color-primary);
+}
+
+.TextZoneTeaching p {
+  text-align: left;
+}
+
+.TeachingSubjects {
+  font-size: 3vh;
+  padding: 2% 5%;
+}
+
+.TeachingList {
+  display: flex;
+  justify-content: space-around;
+  padding: var(--spacing-sm);
+  margin: var(--spacing-sm);
+}
+
+.TeachingList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.TeachingList li {
+  margin: 5vh;
+  font-size: 26px;
+}
+
+/* ===================
+   RESPONSIVE
+   =================== */
+@media (max-width: 900px) {
+  .PhotoTeaching {
+    flex-direction: column;
+  }
+
+  .TextZoneTeaching p {
+    text-align: center;
+  }
+
+  .TeachingList ul {
+    text-align: center;
+  }
+}
