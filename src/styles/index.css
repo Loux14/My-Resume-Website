@@ -1,11 +1,12 @@
 @import './variables.css';
 
 body {
-  margin: auto;
+  margin: 0;
   font-family: var(--font-family-system);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-bg-dark);
+  color: var(--color-text-secondary);
 }
 
 @media (max-width: 900px) {

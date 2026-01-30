@@ -3,12 +3,11 @@
   min-height: 100vh;
   flex: 1;
   background-color: var(--color-bg-dark);
-  max-height: 100vh;
 }
 
 .Content {
   background-color: var(--color-bg-dark);
-  max-height: 100vh;
+  min-height: 100vh;
   max-width: 100%;
 }
 
@@ -17,40 +16,64 @@
    =================== */
 .TopPanel {
   background-color: var(--color-bg-navy);
-  color: var(--color-text-dark);
-  padding: var(--spacing-sm);
-  position: top;
+  padding: var(--spacing-md) var(--spacing-xl);
+  position: sticky;
   top: 0;
   width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .TopPanel ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  flex: 1;
 }
 
 .TopPanel li {
   display: inline-block;
-  margin-right: var(--spacing-lg);
   cursor: pointer;
-  font-size: 5vh;
 }
 
 /* NavLink styles */
 .TopPanel li a {
-  color: var(--color-text-dark);
+  color: var(--color-text-muted);
   text-decoration: none;
-  transition: color var(--transition-fast);
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+  transition: all var(--transition-fast);
+  display: block;
+  border-bottom: 2px solid transparent;
 }
 
 .TopPanel li a:hover {
-  color: var(--color-primary);
+  color: var(--color-text-dark);
 }
 
 .TopPanel li a.active {
-  color: var(--color-primary);
+  color: var(--color-text-dark);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.NameMenu {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-text-dark);
+}
+
+.NameMenu a {
+  color: var(--color-text-dark);
+  text-decoration: none;
 }
 
 /* ===================
@@ -58,12 +81,11 @@
    =================== */
 @media (max-width: 1349px) {
   .TopPanel {
-    background-color: var(--color-bg-navy);
-    color: var(--color-text-dark);
-    padding: var(--spacing-sm);
-    position: top;
-    display: flex;
-    justify-content: space-between;
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .NameMenu {
+    font-size: 2.5rem;
   }
 
   .TopPanel ul {
@@ -72,11 +94,11 @@
     background-color: var(--color-bg-navy);
     position: absolute;
     width: 100%;
-    top: 90px;
+    top: 80px;
     left: 0;
-    padding: 0;
-    justify-content: space-between;
-    z-index: 100;
+    padding: var(--spacing-md);
+    gap: var(--spacing-xs);
+    box-shadow: 0 4px 12px var(--color-shadow);
   }
 
   .TopPanel ul.show {
@@ -87,25 +109,22 @@
     display: flex;
     padding: var(--spacing-sm);
     cursor: pointer;
-    font-size: 7vh;
+    font-size: 3rem;
     color: var(--color-primary);
-    justify-self: flex-end;
     justify-content: center;
     align-items: center;
-    margin-right: 3vh;
   }
 
   .TopPanel ul li {
     display: block;
-    margin: 0;
-    padding: 0;
-    font-size: 4vh;
   }
 
   .TopPanel ul li a {
     display: block;
-    padding: var(--spacing-md);
-    color: var(--color-text-dark);
+    padding: 0.8rem 1rem;
+    color: var(--color-text-muted);
+    font-size: 1.2rem;
+    border-radius: 8px;
   }
 
   .TopPanel ul li a:hover {
@@ -115,24 +134,12 @@
 
   .TopPanel ul li a.active {
     color: var(--color-primary);
-  }
-
-  .NameMenu {
-    display: flex;
-    padding: var(--spacing-sm);
-    font-size: 7vh;
-    color: var(--color-text-dark);
-    text-align: left;
-    margin-right: 5vh;
+    background-color: var(--color-primary-light);
   }
 }
 
 @media (min-width: 1350px) {
   .menu-icon {
-    display: none;
-  }
-
-  .NameMenu {
     display: none;
   }
 }

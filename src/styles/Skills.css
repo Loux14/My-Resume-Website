@@ -1,5 +1,7 @@
 .skills-container {
-  padding: var(--spacing-lg);
+  padding: var(--spacing-2xl);
+  background-color: var(--color-bg-dark);
+  min-height: 100vh;
 }
 
 .skill-thumbnails {
@@ -13,16 +15,17 @@
   width: 20%;
   height: 200px;
   margin-bottom: var(--spacing-lg);
-  background-color: var(--color-bg-card);
-  border: var(--border-width) solid var(--color-primary);
-  border-radius: var(--border-radius-md);
+  background-color: var(--color-bg-accent);
+  border: none;
+  border-radius: 4px;
   overflow: hidden;
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-fast);
 }
 
 .skill-thumbnail:hover {
-  box-shadow: var(--shadow-card-hover);
-  transition: box-shadow var(--transition-normal);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
 }
 
 .thumbnail-image-s {
@@ -50,12 +53,12 @@
 .skill-details h2 {
   margin-top: 0;
   margin-bottom: var(--spacing-sm);
-  color: var(--color-primary);
+  color: #ffffff;
 }
 
 .skill-details p {
   margin: 0;
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .level,
@@ -72,11 +75,12 @@
    SECTION TITLE
    =================== */
 .section-title {
-  color: var(--color-primary);
+  color: var(--color-text-dark);
+  font-family: var(--font-family-primary);
   text-align: center;
   font-size: 2.5rem;
+  font-weight: 400;
   margin: var(--spacing-xl) 0 var(--spacing-lg) 0;
-  letter-spacing: 2px;
 }
 
 /* ===================
@@ -87,14 +91,14 @@
   align-items: center;
   justify-content: center;
   margin: var(--spacing-2xl) auto;
-  width: 80%;
+  width: 60%;
 }
 
 .skills-divider span {
   flex: 1;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
-  box-shadow: 0 0 10px var(--color-text-muted);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-text-dark), transparent);
+  opacity: 0.3;
 }
 
 /* ===================

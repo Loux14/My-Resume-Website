@@ -6,18 +6,18 @@ import '../../styles/Skills.css';
 function Skills() {
   return (
     <div className="skills-container">
-      <SectionTitle>Programming</SectionTitle>
+      <SectionTitle>Security</SectionTitle>
       <div className="skill-thumbnails">
-        {programmingSkills.map(skill => (
+        {securitySkills.map(skill => (
           <SkillCard key={skill.id} skill={skill} />
         ))}
       </div>
 
       <Divider />
 
-      <SectionTitle>Security</SectionTitle>
+      <SectionTitle>Programming</SectionTitle>
       <div className="skill-thumbnails">
-        {securitySkills.map(skill => (
+        {programmingSkills.map(skill => (
           <SkillCard key={skill.id} skill={skill} />
         ))}
       </div>
