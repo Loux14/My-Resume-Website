@@ -49,11 +49,20 @@
 }
 
 .TextZoneNotable b,
-.TextZoneNotable h2,
+.TextZoneNotable h2 {
+  color: var(--color-text-dark);
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+}
+
 .TextZoneNotable h1 {
   color: var(--color-text-dark);
   font-family: var(--font-family-primary);
   font-weight: 400;
+  background-color: var(--color-bg-accent);
+  margin-left: calc(-5% - var(--spacing-2xl));
+  margin-right: calc(-5% - var(--spacing-2xl));
+  padding: var(--spacing-lg) var(--spacing-2xl);
 }
 
 /* ===================
