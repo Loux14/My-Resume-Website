@@ -18,4 +18,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./home/dmszh376/resume
+        local-dir: ./home/dmszh376/resume/
