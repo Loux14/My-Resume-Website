@@ -63,11 +63,11 @@ function Content() {
       <div className="MainContent">
         <Routes>
           <Route path={ROUTES.INTRODUCTION} element={<Introduction />} />
+          <Route path={ROUTES.SKILLS} element={<Skills />} />
           <Route path={ROUTES.PROJECTS} element={<Projects />} />
           <Route path={ROUTES.HACKATHON} element={<Notable />} />
           <Route path={ROUTES.TEACHING} element={<Teaching />} />
           <Route path={ROUTES.DOCUMENTS} element={<Resume />} />
-          <Route path={ROUTES.SKILLS} element={<Skills />} />
           <Route path={ROUTES.CONTACT} element={<Contacts />} />
         </Routes>
       </div>
