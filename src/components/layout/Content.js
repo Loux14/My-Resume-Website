@@ -27,7 +27,7 @@ function Content() {
     <div className="Content">
       <div className="TopPanel">
         <div className="NameMenu">
-          <a href="http://www.lucas-g.ca" rel="noopener noreferrer">
+          <a href="http://resume.lucas-g.ca" rel="noopener noreferrer">
             Lucas G
           </a>
         </div>

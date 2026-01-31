@@ -1,19 +1,10 @@
 export const projects = [
   {
-    id: 1,
-    title: 'Top - iOS App',
-    lang: ['swift.png'],
-    subtitle: 'Semester 4 - Personal',
-    text: 'Ranking App',
-    image: 'top.png',
-    link: 'https://apps.apple.com/ca/app/top-ranking/id6743449298'
-  },
-  {
     id: 2,
     title: 'Facial Measurement App',
     lang: ['swift.png'],
     subtitle: 'Semester 4 - Professional',
-    text: 'Optical Glasses measurements',
+    text: 'Optical Glasses measurements - Optician Tool',
     image: 'lavue.png',
     link: 'https://github.com/Loux14/Facial-Measurement-iOS-App/tree/main'
   },
@@ -27,13 +18,22 @@ export const projects = [
     link: 'https://github.com/Loux14/My-Resume-Website'
   },
   {
-    id: 5,
-    title: 'Login System',
-    lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
-    subtitle: 'Semester 3',
-    text: 'Login system with a database, able to create new users, log in, and log out. The database stores information about the users and logs, with hash and salt for the password.',
-    image: 'new_user.png',
-    link: 'https://github.com/Loux14/logged'
+    id: 8,
+    title: 'Crypto Toolbox',
+    lang: ['linux.png'],
+    subtitle: 'Semester 5 - Personal',
+    text: 'Steganography, Quick Recon, Token Finder, etc.',
+    image: 'crypto.png',
+    link: 'https://github.com/Loux14/Key-Finder'
+  },
+  {
+    id: 1,
+    title: 'Top - iOS App',
+    lang: ['swift.png'],
+    subtitle: 'Semester 4 - Personal',
+    text: 'Ranking App',
+    image: 'top.png',
+    link: 'https://apps.apple.com/ca/app/top-ranking/id6743449298'
   },
   {
     id: 7,
@@ -44,13 +44,13 @@ export const projects = [
     image: 'project2.png',
     link: 'https://github.com/Loux14/Enigma'
   },
-  {
-    id: 8,
-    title: 'Crypto Tools',
-    lang: ['linux.png'],
-    subtitle: 'Semester 5 - Personal',
-    text: 'Steganography, Quick Recon, Token Finder, etc.',
-    image: 'crypto.png',
-    link: 'https://github.com/Loux14/Key-Finder'
+    {
+    id: 5,
+    title: 'Login System',
+    lang: ['php.png', 'mysql.png', 'html.png', 'js.png'],
+    subtitle: 'Semester 3',
+    text: 'Login system with a database, able to create new users, log in, and log out. The database stores information about the users and logs, with hash and salt for the password.',
+    image: 'new_user.png',
+    link: 'https://github.com/Loux14/logged'
   },
 ];

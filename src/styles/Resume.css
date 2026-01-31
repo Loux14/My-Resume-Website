@@ -2,34 +2,37 @@
   background-color: var(--color-bg-dark);
   text-align: center;
   display: flex;
-  height: 100%;
+  height: calc(100vh - 60px);
+  max-height: calc(100vh - 60px);
+  overflow: hidden;
   font-family: var(--font-family-system);
   font-weight: 500;
   color: var(--color-text-dark);
-  min-height: 100vh;
   flex-direction: row;
   justify-content: center;
-  padding: var(--spacing-2xl);
+  align-items: center;
+  padding: var(--spacing-sm);
+  gap: var(--spacing-md);
 }
 
 .block-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% 2.5% 5% 2.5%;
+  margin: 0;
 }
 
 .PhotoResume {
-  max-width: 100ch;
-  margin-top: 5vh;
-  padding-bottom: 10vh;
+  width: 45vh;
+  margin-top: var(--spacing-sm);
   display: flex;
   justify-content: center;
 }
 
 .PhotoResume img {
-  height: 100%;
   width: 100%;
+  height: auto;
+  object-fit: contain;
   border-radius: 4px;
   padding: 12px;
   background-color: var(--color-bg-card);
@@ -42,7 +45,7 @@
    =================== */
 .Resume button {
   display: inline-block;
-  padding: var(--spacing-md) 32px;
+  padding: var(--spacing-sm) 20px;
   width: auto;
   background-color: var(--color-primary);
   color: white;
@@ -50,10 +53,10 @@
   cursor: pointer;
   font-family: var(--font-family-primary);
   font-weight: 600;
-  font-size: 1rem;
-  border-radius: 12px;
+  font-size: 0.85rem;
+  border-radius: 8px;
   transition: all var(--transition-fast);
-  box-shadow: 0 4px 12px var(--color-shadow);
+  box-shadow: 0 2px 8px var(--color-shadow);
 }
 
 .Resume button:hover {
@@ -74,7 +77,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100%;
+    height: auto;
+    max-height: none;
+    overflow: visible;
     padding: var(--spacing-lg);
   }
 
@@ -82,15 +87,15 @@
     padding-top: 0;
     margin: 0 auto;
     width: 100%;
+    max-height: none;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .PhotoResume {
-    margin: var(--spacing-lg) auto;
-    padding-bottom: var(--spacing-lg);
-    width: 90%;
+    margin: var(--spacing-md) auto;
+    width: 80vw;
     display: flex;
     justify-content: center;
   }

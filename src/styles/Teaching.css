@@ -1,8 +1,10 @@
 .Teaching {
   font-family: var(--font-family-system);
   color: var(--color-text-dark);
-  line-height: 1.7;
-  min-height: 100vh;
+  line-height: 1.6;
+  height: calc(100vh - 60px);
+  max-height: calc(100vh - 60px);
+  overflow: hidden;
   display: flex;
 }
 
@@ -11,7 +13,7 @@
   border-radius: 4px;
   border: none;
   max-width: 100%;
-  max-height: 400px;
+  max-height: 300px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
@@ -32,8 +34,8 @@
   justify-content: center;
   flex-direction: row;
   background-color: var(--color-bg-accent);
-  padding: var(--spacing-xl);
-  gap: 60px;
+  padding: var(--spacing-lg);
+  gap: 40px;
 }
 
 .PhotoTeaching img {
@@ -42,17 +44,17 @@
 }
 
 .PhotoTeaching p {
-  padding: var(--spacing-xl);
+  padding: var(--spacing-lg);
   background-color: var(--color-bg-dark);
   margin: 0;
-  font-size: 1.15rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.6;
   max-width: 50%;
 }
 
 .TextZoneTeaching {
   flex: 1;
-  padding: 5%;
+  padding: 3%;
   background-color: var(--color-bg-dark);
   display: flex;
   flex-direction: column;
@@ -101,15 +103,21 @@
 @media (max-width: 900px) {
   .Teaching {
     flex-direction: column;
+    height: auto;
+    max-height: none;
+    overflow: visible;
   }
 
   .PhotoTeaching {
     flex-direction: column;
-    min-height: 50vh;
+    min-height: auto;
+    padding: var(--spacing-md);
+    gap: 20px;
   }
 
   .PhotoTeaching p {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
+    max-width: 100%;
   }
 
   .TextZoneTeaching p {

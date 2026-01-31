@@ -19,12 +19,12 @@ function Resume() {
     <div className="Resume">
       <div className="block-info">
         <div>
-          <button onClick={() => downloadPdf("Lucas_G_2025.pdf")}>
+          <button onClick={() => downloadPdf("Lucas_G_2026.pdf")}>
             Download Resume
           </button>
         </div>
-        <div className="PhotoResume" onClick={() => openPdf("Lucas_G_2025.pdf")} style={{ cursor: "pointer" }}>
-          <img src="Resume_Pic_LucasG_2025.png" alt="Resume" />
+        <div className="PhotoResume" onClick={() => openPdf("Lucas_G_2026.pdf")} style={{ cursor: "pointer" }}>
+          <img src="Resume_Pic_LucasG_2026.png" alt="Resume" />
         </div>
       </div>
       <div className="block-info">
