@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Routes, Route, NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Routes, Route, NavLink, useLocation } from "react-router-dom";
 import {
   Introduction,
   Projects,
@@ -11,6 +11,16 @@ import {
 } from "../sections";
 import { ROUTES, NAV_ITEMS } from "../../constants";
 import "../../styles/App.css";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function Content() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,6 +35,7 @@ function Content() {
 
   return (
     <div className="Content">
+      <ScrollToTop />
       <div className="TopPanel">
         <div className="NameMenu">
           <a href="http://resume.lucas-g.ca" rel="noopener noreferrer">
