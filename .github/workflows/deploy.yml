@@ -9,21 +9,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    
     - uses: actions/setup-node@v3
       with:
         node-version: '18'
-    - run: npm ci && npm run build
-    - uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    
+    - run: npm ci
+    - run: npm run build
+    
+    - name: Deploy to resume folder
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./build/
-        server-dir: /home/dmszh376/resume/
-    - uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        port: 27
+        local_path: './build/*'
+        remote_path: '/home/dmszh376/resume/'
+        sftp_only: true
+    
+    - name: Deploy to public_html
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./build/
-        server-dir: /home/dmszh376/public_html/
+        port: 27
+        local_path: './build/*'
+        remote_path: '/home/dmszh376/public_html/'
+        sftp_only: true
